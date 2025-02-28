@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://spica.com.pk/sitemap.xml
