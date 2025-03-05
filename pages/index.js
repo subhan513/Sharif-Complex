@@ -15,7 +15,7 @@ import content from './blogposts.json';
 
 const faqs = [
   {
-    question: 'What makes Spica International?',
+    question: 'What makes Sharif Educaitonal Complex International?',
     answer:
       'Our school is a project owned by the Mr. Muhammad Shahid Ansari education company called Spica International School Gujranwala Campus. We offer an international curriculum and deliver it through authentic learning and assessment. ',
   },
@@ -77,7 +77,7 @@ export default function Home() {
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="generator" content="Getsol Inc." />
-        <title>Home - Sharif College of Engineering & Technology</title>
+        <title>Home - Sharif Educational Complex</title>
         <meta
           name="title"
           content="Spica International School Gujranwala - Spica"
@@ -146,7 +146,7 @@ export default function Home() {
               <Link
                 href="online-admission"
                 //href="/solutions"
-                className="text-white border-2 hover:bg-black-500   rounded-full px-5 py-2 bg-gradient-to-tr from-[#b31507] via-[#fe5445] to-[#b31507] border-[#f00707]   hover:text-white text-lg transition duration-	300 font-medium">
+                className="text-black border-2 hover:bg-black-500  bg-[#87CEEB]  rounded-full px-5 py-2  border-[#87CEEB]   hover:text-white text-lg transition duration-	300 font-medium">
                 APPLY FOR ADMISSION
               </Link>
             </div>
@@ -162,12 +162,12 @@ export default function Home() {
             ></Image> */}
         <iframe src="/tour/index.html" className="w-full h-full "></iframe>
         <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
-        <div className="w-full h-full bg-gradient-to-t from-red-800 via-transparent z-20  absolute"></div>
+        <div className="w-full h-full bg-gradient-to-t from-blue-800 via-transparent z-20  absolute"></div>
       </header>
 
       <section className="py-0 pt-16 ">
         <div className="sec-heading">
-          <h2>WHY CHOOSE SCET?</h2>
+          <h2>WHY CHOOSE SHARIF EDUCATIONAL COMPLEX?</h2>
           <p>
             Building a Strong Foundation for Lifelong Learning: Early Learning
             Domains
@@ -177,7 +177,7 @@ export default function Home() {
           <ul
             role="list"
             className="grid grid-cols-2 gap-6 gap-y-10 sm:grid-cols-3 md:grid-cols-6 ">
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
                 <AcademicCapIcon
                   className="w-8 h-8 text-[#c44545]"
@@ -188,12 +188,12 @@ export default function Home() {
               <h2
                 className="text-white text-base sm:text-xl pt-4 md:pt-8 font-medium"
                 style={{ textShadow: '0 2px 2px rgba(0,0,0,.4)' }}>
-                UET Affiliated
+               Quality Education
               </h2>
               {/*<p>Each child learns in different ways.</p>*/}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -212,11 +212,11 @@ export default function Home() {
               <h2
                 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
                 style={{ textShadow: '0 2px 2px rgba(0,0,0,.4)' }}>
-                PEC Accredited
+                Advanced Facilites
               </h2>
               {/*<p>The early years are critical for literacy development.</p> */}
             </li>
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
                 <UserGroupIcon
                   className="w-8 h-8 text-[#c44545]"
@@ -226,12 +226,12 @@ export default function Home() {
               <h2
                 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
                 style={{ textShadow: '0 2px 2px rgba(0,0,0,.4)' }}>
-                NCEAC Accredited
+               ExtraCurricular Activities
               </h2>
               {/* <p>Our social studies domain helps children understand themselves.</p> */}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
                 <CalculatorIcon
                   className="w-8 h-8 text-[#c44545]"
@@ -241,12 +241,12 @@ export default function Home() {
               <h2
                 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
                 style={{ textShadow: '0 2px 2px rgba(0,0,0,.4)' }}>
-                Excellent Research Facilities
+               Qualified Faculty
               </h2>
               {/* <p>Early experiences with math help children develop reasoning skills</p> */}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
                 <BeakerIcon
                   className="w-8 h-8 text-[#c44545]"
@@ -256,12 +256,12 @@ export default function Home() {
               <h2
                 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
                 style={{ textShadow: '0 2px 2px rgba(0,0,0,.4)' }}>
-                Industrial Experience
+                Industrial Environment
               </h2>
               {/*<p>Children are natural scientists.</p> */}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -280,7 +280,7 @@ export default function Home() {
               <h2
                 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
                 style={{ textShadow: '0 2px 2px rgba(0,0,0,.4)' }}>
-                Conferral of UET Degree
+               Quality Education with a Holistic Approach
               </h2>
               {/*<p>Active children become active adults.</p> */}
             </li>
@@ -290,10 +290,9 @@ export default function Home() {
 
       <section className="py-10 ">
         <div className="sec-heading">
-          <h2>TOP PROGRAMS</h2>
+          <h2>TOP EVENTS</h2>
           <p>
-            Discovering the Wonders of Learning with SCET's Specialized Faculty
-            and Advanced Labs
+          Stay updated with our latest school events, celebrations, and achievements – where learning meets excitement
           </p>
         </div>
 
@@ -301,7 +300,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-4  text-center mx-auto">
             <Link
               href="/pre-school"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] ">
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#87CEEB] ">
               <div className="flex flex-col w-full">
                 <Image
                   src="/images/pre-nursery.png"
@@ -311,14 +310,14 @@ export default function Home() {
                   height={75}
                 />
 
-                <h2>Computer Science</h2>
+                <h2>Annual Cultural Performance</h2>
                 <p>
                   Early Learning Adventures: Our Pre-School Program for
                   Playgroup, Nursery, and Kindergarten
                 </p>
 
                 <Image
-                  src="/images/pre-nursery-child.jpg"
+                  src="/g2.jpg"
                   alt="Pre Nursery Chlidren Photo"
                   className="rounded-lg w-full rounded-t-none mt-3"
                   width={400}
@@ -329,7 +328,7 @@ export default function Home() {
 
             <Link
               href="/primary-and-middle-school"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] ">
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#87CEEB] ">
               <div className="flex flex-col w-full">
                 <Image
                   src="/images/nursery.png"
@@ -338,13 +337,12 @@ export default function Home() {
                   width={64}
                   height={75}
                 />
-                <h2>Electrical Engineering</h2>
+                <h2>Human Pyramid Formation</h2>
                 <p>
-                  Building a Strong Foundation: Our Primary Schooling Program
-                  for Grades I to Grade V for your child
+                A stunning display of teamwork, balance, and patriotism on Sports Day
                 </p>
                 <Image
-                  src="/images/nursery-child.jpg"
+                  src="/g6.jpg"
                   alt="Nursery Childs Photo"
                   className="rounded-lg mt-3 rounded-t-none w-full"
                   width={400}
@@ -355,7 +353,7 @@ export default function Home() {
 
             <Link
               href="/primary-and-middle-school"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] ">
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#87CEEB] ">
               <div className="flex flex-col w-full">
                 <Image
                   src="/images/kindergarten-1.png"
@@ -364,13 +362,12 @@ export default function Home() {
                   width={64}
                   height={75}
                 />
-                <h2>Chemical Engineering</h2>
+                <h2>Annual Sports March</h2>
                 <p>
-                  Our Comprehensive Schooling Program for Grades VI to VIII,
-                  Designed to Empower and Inspire Young Minds
+                A grand display of unity, discipline, and team spirit as students march forward with pride!
                 </p>
                 <Image
-                  src="/images/kindergarten-child.jpg"
+                  src="/g5.jpg"
                   alt="Solar Batteries"
                   className="rounded-lg mt-3 rounded-t-none w-full"
                   width={400}
@@ -421,9 +418,9 @@ export default function Home() {
             role="list"
             className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4 ">
             <li
-              className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
+              className=" col-span-1 h-80 hover:-translate-y-2 duration-300 transition flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
-                backgroundImage: "url('./images/gallery/10.webp')",
+                backgroundImage: "url('./images/a.jpg')",
               }}>
               <div
                 className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
@@ -434,7 +431,7 @@ export default function Home() {
                   </h2>
                   <p className="text-gray-100 text-sm">
                     Learn about admission requirements, how to apply, and the
-                    next steps once you’ve applied at SPICA.
+                    next steps once you’ve applied at Sharif Educational Complex.
                   </p>
                 </div>
               </div>
@@ -443,18 +440,16 @@ export default function Home() {
             <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
-                backgroundImage: "url('./images/gallery/3.webp')",
+                backgroundImage: "url('./images/b.jpg')",
               }}>
               <div className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent">
                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
-                    VIRTUAL 360° TOUR
+                  State-of-the-Art Computer Lab
                   </h2>
 
                   <p className="text-gray-100 text-sm">
-                    Step into our school without leaving your seat! Join our
-                    virtual tour and discover our campus from the comfort of
-                    your own device.
+                  Empowering students with cutting-edge technology for a brighter digital future!
                   </p>
                 </div>
               </div>
@@ -464,7 +459,7 @@ export default function Home() {
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
                 backgroundImage:
-                  "url('./images/spica-international-school-gujranwala-scholorship-program.png')",
+                  "url('./images/c.jpg')",
               }}>
               <div
                 className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
@@ -474,7 +469,7 @@ export default function Home() {
                     Scholarships
                   </h2>
                   <p className="text-gray-100 text-sm">
-                    SPICA offers a range of different scholarship programmes for
+                    Sharif Educational Complex offers a range of different scholarship programmes for
                     national & international students to help cover tuition
                     fees.
                   </p>
@@ -485,7 +480,7 @@ export default function Home() {
             <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
-                backgroundImage: "url('./images/gallery/16.jpg')",
+                backgroundImage: "url('./images/5.jpg')",
               }}>
               <div
                 className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
@@ -495,7 +490,7 @@ export default function Home() {
                     Innovative Learning
                   </h2>
                   <p className="text-gray-100 text-sm">
-                    In association with ROBOTMEA, SPICA offers a dynamic
+                    In association with ROBOTMEA, Sharif Educational Complex offers a dynamic
                     robotics programme to its primary level students.
                   </p>
                 </div>
@@ -521,15 +516,15 @@ export default function Home() {
                     className="xl:w-80 xl:h-80 w-60 h-60 mx-auto rounded-full bg-cover"
                     style={{
                       backgroundImage:
-                        "url('/images/founder-spica-haji-muhammad-bashir-ansari-gujranwala.jpg')",
+                        "url('/founder.jpg')",
                     }}></div>
 
                   <div className="px-6 py-12 md:px-12 text-center">
                     <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
-                      Haji Muhammad Bashir Ansari (Late)
+                     Muhammad Sharif
                     </h2>
                     <p class="mb-4 font-semibold">
-                      Founder @ Spica International
+                      Founder @ Sharif Educaitonal Complex
                     </p>
 
                     <p class="mb-6 relative ">
@@ -573,15 +568,15 @@ export default function Home() {
                     className="xl:w-80 xl:h-80 w-60 h-60  mx-auto rounded-full bg-cover"
                     style={{
                       backgroundImage:
-                        "url('/images/madam-maliha-spica-international-school-gujranwala.jpg')",
+                        "url('/pricipleImg.png')",
                     }}></div>
 
                   <div className="px-6 py-12 md:px-12 text-center">
                     <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
-                      Ma'am Maliha Fatima
+                      Muhammad Ashfaq
                     </h2>
                     <p class="mb-4 font-semibold">
-                      Principal @ Spica International
+                      Principal @ Sharif Educational Complex
                     </p>
                     <p class="mb-6 relative ">
                       <svg
@@ -591,7 +586,7 @@ export default function Home() {
                         aria-hidden="true">
                         <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                       </svg>{' '}
-                      As a proud Principal of Spica International School
+                      As a proud Principal of Sharif Educational Complex
                       Gujranwala Campus which is academically accomplished with
                       well-respected Directors who are there to help in
                       providing exceptional support in educational outcomes and
@@ -619,7 +614,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="py-10 ">
+        {/* <section className="py-10 ">
           <div className="sec-heading">
             <h2>News & Updates</h2>
             <p>
@@ -685,7 +680,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="pt-5 pb-10 ">
           <div className="sec-heading">
@@ -802,7 +797,7 @@ export default function Home() {
           <div className="container mx-auto px-5 sec-cta">
             <div className="logo-badge">
               <Image
-                src="/images/spica-logo2.png"
+                src="/sharifLogo.png"
                 className="w-40 md:w-52 h-auto"
                 alt="Spica International School"
                 width={208}
@@ -830,7 +825,7 @@ export default function Home() {
               learning new words and forming new ideas every day.
             </p>
 
-            <div className="social">
+            {/* <div className="social">
               <a
                 href="https://wa.me/+923281215000"
                 title="WhatsApp"
@@ -865,7 +860,7 @@ export default function Home() {
                   />
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
       </div>

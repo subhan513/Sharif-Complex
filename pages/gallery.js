@@ -24,7 +24,7 @@ export default function About() {
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="generator" content="Getsol Inc." />
-        <title>Gallery | Spica International School</title>
+        <title>Gallery | Sharif Educational Complex</title>
         <meta
           name="title"
           content="Gallery Spica | Spica International School"
@@ -80,7 +80,7 @@ export default function About() {
 
       <MainHeader
         pageHeading="Gallery"
-        pageImg="header-2.webp"
+        pageImg="child.jpeg"
       />
 
       <section className="main-sec">

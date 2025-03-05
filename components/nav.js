@@ -1,15 +1,48 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
-import { Fragment, useState } from 'react';
+import { Fragment } from 'react';
+import { motion } from 'framer-motion';
 import { Menu, Dialog, Transition, Popover } from '@headlessui/react';
 import { XIcon, SunIcon } from '@heroicons/react/outline';
+
 
 export default function Nav() {
   const router = useRouter();
   const currentRoute = router.pathname;
   const [open, setOpen] = useState(false);
-  let [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [showAdmissionsDropdown, setShowAdmissionsDropdown] = useState(false);
+  const [showAboutUsDropdown, setShowAboutUsDropdown] = useState(false);
+
+  const admissionDropdownRef = useRef(null);
+  const aboutDropdownRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (admissionDropdownRef.current && !admissionDropdownRef.current.contains(event.target)) {
+        setShowAdmissionsDropdown(false);
+      }
+      if (aboutDropdownRef.current && !aboutDropdownRef.current.contains(event.target)) {
+        setShowAboutUsDropdown(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+  const handleMouseEnter = (setDropdown) => {
+    setDropdown(true);
+  };
+
+  const handleMouseLeave = (setDropdown) => {
+    setTimeout(() => {
+      setDropdown(false);
+    }, 300); // **300ms ka delay diya hai taake flicker na ho**
+  };
+
   const handleToggle = () => {
     setOpen(open => !open);
   };
@@ -47,36 +80,105 @@ export default function Nav() {
           </button>
 
           <Link href="/">
-            <Image
-              src="/images/sharif-logo.jpg"
-              alt="Spica International School"
-              className="backHome sm:w-48 w-40 cursor-pointer pt-1"
-              width={220}
-              height={100}
-              title="Spica International School"
-            />
-          </Link>
+          <Image className="mt-4" src="/sharifLogo.png" alt="Logo" width={100} height={100} />
+        </Link>
+        
 
           <ul className="top-links items-center ml-12 divide-x uppercase divide-slate-400 text-white divide-opacity-70 text-lg  hidden font-medium xl:flex whitespace-nowrap">
             <li>
               <Link href="/" className="hover:text-[#eb0e0e] px-3">
                 Home
               </Link>{' '}
-            </li>
+</li>
+ {/* 📌 Admission Dropdown */}
+ <li className="relative" ref={admissionDropdownRef}>
+            <button
+              className="px-3 hover:text-[#e88081]"
+              onClick={() => setShowAdmissionsDropdown(!showAdmissionsDropdown)}
+              onMouseEnter={() => setShowAdmissionsDropdown(true)}
+              onMouseLeave={() => setShowAdmissionsDropdown(false)}
+            >
+              ADMISSION
+            </button>
 
-            <li>
-              <Link
-                href="/about"
-                //href="/solutions"
-                className={
-                  currentRoute.includes('admissions')
-                    ? 'text-[#e88081] px-3'
-                    : 'hover:text-[#e88081] px-3'
-                }>
-                Admissions
-              </Link>
-            </li>
+            <Transition
+              show={showAdmissionsDropdown}
+              enter="transition ease-out duration-200"
+              enterFrom="opacity-0 scale-95"
+              enterTo="opacity-100 scale-100"
+              leave="transition ease-in duration-150"
+              leaveFrom="opacity-100 scale-100"
+              leaveTo="opacity-0 scale-95"
+            >
+              <div
+                className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5"
+                onMouseEnter={() => setShowAdmissionsDropdown(true)}
+                onMouseLeave={() => setShowAdmissionsDropdown(false)}
+              >
+                <Link href="/admissionpolicy" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Admission Policy
+                </Link>
+                <Link href="/classes" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Classes
+                </Link>
+                <Link href="/scholarships" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Scholarships
+                </Link>
+                <Link href="/howtoapply" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  How to Apply
+                </Link>
+                <Link href="/examinationsystem" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Examination System
+                </Link>
+              </div>
+            </Transition>
+          </li>
 
+          {/* 📌 About Us Dropdown */}
+          <li className="relative" ref={aboutDropdownRef}>
+            <button
+              className="px-3 hover:text-[#e88081]"
+              onClick={() => setShowAboutUsDropdown(!showAboutUsDropdown)}
+              onMouseEnter={() => setShowAboutUsDropdown(true)}
+              onMouseLeave={() => setShowAboutUsDropdown(false)}
+            >
+              ABOUT US
+            </button>
+
+            <Transition
+              show={showAboutUsDropdown}
+              enter="transition ease-out duration-200"
+              enterFrom="opacity-0 scale-95"
+              enterTo="opacity-100 scale-100"
+              leave="transition ease-in duration-150"
+              leaveFrom="opacity-100 scale-100"
+              leaveTo="opacity-0 scale-95"
+            >
+              <div
+                className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5"
+                onMouseEnter={() => setShowAboutUsDropdown(true)}
+                onMouseLeave={() => setShowAboutUsDropdown(false)}
+              >
+                <Link href="/principalmessage" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Principal Message
+                </Link>
+                <Link href="/visionmission" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Vision & Mission
+                </Link>
+                <Link href="/administration" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Administration
+                </Link>
+                <Link href="/facilities" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Facilities
+                </Link>
+                <Link href="/trustees" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Trustees
+                </Link>
+              </div>
+            </Transition>
+          </li>
+      
+          
             {/* <li>
               <Menu as="div" className="relative inline-block text-left px-3">
                 <div>
@@ -238,45 +340,33 @@ export default function Nav() {
                     ? 'text-[#e88081] px-3'
                     : 'hover:text-[#e88081] px-3'
                 }>
-                Departments
+                Gallery
               </Link>
             </li>
 
             <li>
               <Link
-                href="#"
+                href="/blog"
                 // href="/products"
                 className={
                   currentRoute.includes('products')
                     ? 'text-[#e88081] px-3'
                     : 'hover:text-[#e88081] productslink px-3'
                 }>
-                Academics
+                Career
               </Link>
             </li>
 
             <li>
               <Link
-                href="/about"
+                href="/Feestructure"
                 //href="/solutions"
                 className={
                   currentRoute.includes('about')
                     ? 'text-[#e88081] px-3'
                     : 'hover:text-[#e88081] px-3'
                 }>
-                About Us
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                href="#"
-                className={
-                  currentRoute === '#'
-                    ? 'text-[#e88081] px-3'
-                    : 'hover:text-[#e88081] px-3'
-                }>
-                Downloads
+                Feestructure
               </Link>
             </li>
 

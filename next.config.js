@@ -1,16 +1,12 @@
-  const withPWA = require('next-pwa')
+const withPWA = require("next-pwa")({
+  dest: "public",
+  register: true,
+  skipWaiting: true,
+});
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output : "export",
-  poweredByHeader: false,
+module.exports = withPWA({
   reactStrictMode: true,
-  swcMinify: true,
-  pwa: {
-    dest: 'public',
-    register: true,
-    disable: process.env.NODE_ENV === "development",
-  }
-}
-//module.exports = nextConfig
-  module.exports = withPWA(nextConfig)
+});
+const withVideos = require('next-videos')
+
+module.exports = withVideos()

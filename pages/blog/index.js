@@ -5,7 +5,10 @@ import MainHeader from '../../components/mainheader';
 import Head from 'next/head';
 import content from '../blogposts.json';
 import getRSSFeed from '../../lib/gRssFeed';
-
+const jobs = [
+  { title: 'Science Teacher Required', description: 'Science Teacher Required for class(4-7)' },
+  { title: 'Social Studies Teacher Required', description: 'Social Studies Teacher Required for class(4-7)' }
+];
 export default function Blog() {
   return (
     <>
@@ -76,79 +79,50 @@ export default function Blog() {
         <meta name="google" content="notranslate" />
       </Head>
 
-      <MainHeader pageHeading="Spica Blog" pageImg="header-1.jpg" />
-
-      <section className="main-sec  relative md:pb-24 pb-16">
-        <div className="mt-4   mx-auto grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-cols-1 gap-5  container ">
-          {content.posts.map((post, index) => {
-            return (
-              <div
-                key={post.slug + '_' + index}
-                className="flex flex-col rounded-lg shadow-lg overflow-hidden group hover:-translate-y-2 duration-300 transition">
-                <div className="flex-shrink-0">
-                  <Image
-                    className="h-48 w-full object-cover"
-                    width={400}
-                    height={300}
-                    src={post.featured_img}
-                    alt={post.title}
-                  />
-                </div>
-                <div className="flex-1 bg-white border-b p-6 flex flex-col justify-between">
-                  <div className="flex-1">
-                    <p className="text-sm font-medium text-amber-500 capitalize">
-                      {post.category}
-                    </p>
-                    <a href={'blog/' + post.slug} className="block mt-2">
-                      <p className="text-base sm:text-xl font-semibold text-gray-900 group-hover:text-blue-600">
-                        {post.title}
-                      </p>
-                    </a>
-                    <p className="mt-3 text-sm sm:text-base text-gray-500">
-                      {post.shortdescription}
-                    </p>
-                  </div>
-                  <div className="mt-2 flex items-center">
-                    <div className="ml-0">
-                      <p className="text-sm font-medium text-gray-900">
-                        {post.author}
-                      </p>
-                      <div className="flex space-x-1 text-sm text-gray-500">
-                        <time dateTime={post.datetime}>{post.date}</time>
-                        <span aria-hidden="true">&middot;</span>
-                        <span>{post.readingTime} read</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-
-        <div className="absolute inset-x-0 bottom-0 h-96 -z-10 text-slate-600/10 [mask-image:linear-gradient(to_bottom,transparent,white)]">
-          <svg
-            className="absolute inset-0 h-full w-full"
-            xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern
-                id="pricing-pattern"
-                width="32"
-                height="32"
-                patternUnits="userSpaceOnUse"
-                x="50%"
-                y="100%"
-                patternTransform="translate(0 -1)">
-                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-              </pattern>
-            </defs>
-            <rect
-              width="100%"
-              height="100%"
-              fill="url(#pricing-pattern)"></rect>
-          </svg>
-        </div>
-      </section>
+      <MainHeader pageHeading="Career" pageImg="child.jpeg" />
+      <div className="p-6 max-w-4xl mx-auto">
+      <h1 className="text-3xl font-bold text-center mb-6">Career</h1>
+      <p className="text-gray-700 mb-4">
+        Teaching is one of the most impactful and respected career paths, vital to shaping the social and economic fabric of our society. 
+        At SEC, we believe that education is more than academics; it is about fostering the holistic growth of young minds. 
+        Our teachers play a pivotal role in this mission, inspiring students to achieve their best while nurturing their individual strengths 
+        and preparing them for the challenges of the modern world.
+      </p>
+      <p className="text-gray-700 mb-4">
+        We seek educators who are deeply committed to their profession and understand the unique ways teenagers learn and thrive. 
+        A minimum of a Master’s degree in the relevant teaching discipline is required, with preference given to experienced teachers. 
+        We value individuals who bring enthusiasm, creativity, and dedication to their roles, ensuring that students receive both academic 
+        excellence and personal mentorship.
+      </p>
+      <p className="text-gray-700 mb-4">
+        Applications for teaching and non-teaching positions must be routed through the Main Office and are managed by the Public Relations Officer (PRO). 
+        The PRO oversees the review and shortlisting of applications, as well as responding to employment inquiries. 
+        Direct applications to the Principal or other staff members are not entertained to ensure a structured and fair process.
+      </p>
+      <p className="text-gray-700 mb-4">
+        Prospective candidates are encouraged to send their CVs and cover letters via email to 
+        <a href="mailto:hr@sharif.edu.pk" className="text-blue-500 hover:underline"> hr@sharif.edu.pk</a> 
+        or submit them to the Main Office. At SEC, we are committed to building a team of passionate educators who inspire and empower 
+        the leaders of tomorrow.
+      </p>
+    </div>
+    <div className="min-h-screen p-10">
+      <h1 className="text-3xl font-bold text-gray-800">Current Openings</h1>
+      <div className="grid grid-cols-2 gap-6 mt-5">
+        {jobs.map((job, index) => (
+          <div key={index} className="p-5 border rounded-lg shadow-lg">
+            <h2 className="text-xl font-semibold">{job.title}</h2>
+            <p className="text-gray-600">{job.description}</p>
+            <Link href={`/apply?job=${encodeURIComponent(job.title)}`}>
+              <button className="mt-3 px-4 py-2 bg-purple-700 text-white rounded-lg hover:bg-purple-900">
+                Apply Now
+              </button>
+            </Link>
+          </div>
+        ))}
+      </div>
+    </div>
+  
     </>
   );
 }

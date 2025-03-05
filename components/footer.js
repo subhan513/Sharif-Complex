@@ -5,19 +5,19 @@ export default function Footer({ children, home }) {
     <>
       <section
         id="sec-footer"
-        className="sec-footer border-t group bg-center bg-no-repeat bg-cover relative"
-        style={{ backgroundImage: "url('../images/footer-spica.webp')" }}
+        className=" bg-[#87CEEB] sec-footer border-t group bg-center bg-no-repeat bg-cover relative"
+        // style={{ backgroundImage: "url('../images/footer-spica.webp')" }}
       >
         <div className="w-full- h-full group-hover:opacity-80  absolute inset-0 z-10   "></div>
         <div className="container mx-auto px-5 z-20 relative">
-          <div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 text-white">
+          <div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 text-black">
             <div className="md:col-span-2">
               <h2 className="text-lg sm:text-xl font-semibold py-2">
-                About Spica International
+                About Sharif Educational Complex
               </h2>
               <div className="flex text-sm sm:text-base pr-10">
                 <div><p>
-                At Spica International School, we believe in nurturing young minds through play-based learning experiences. Our experienced teachers create a safe and stimulating environment where children can explore, discover, and learn at their own pace. We focus on developing social, emotional, cognitive, and physical skills to prepare children for success in school and beyond.
+                At Sharif Educational Complex, we believe in nurturing young minds through play-based learning experiences. Our experienced teachers create a safe and stimulating environment where children can explore, discover, and learn at their own pace. We focus on developing social, emotional, cognitive, and physical skills to prepare children for success in school and beyond.
              
                 </p>
                 <Link
@@ -25,7 +25,7 @@ export default function Footer({ children, home }) {
                       className=" pr-4  py-1 mt-4 border px-4 rounded-full inline-block  no-underline"
                       title="About Spica"
                     >
-                      Spica International
+                     Sharif Educational Complex
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -66,7 +66,7 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Applicant Performa
+                  Home Page
                 </Link>
                 <Link
                   href="#"
@@ -102,7 +102,7 @@ export default function Footer({ children, home }) {
                   Android App
                 </Link>
 
-                <Link href="https://school.spica.edu.pk/site/login" title="Staff Login">
+                <Link href="http://localhost:3000/about" title="Staff Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -115,10 +115,10 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Staff Login
+                 About Us
                 </Link>
 
-                <Link href="https://school.spica.edu.pk/site/userlogin" title="Student Login">
+                <Link href="http://localhost:3000/Feestructure" title="Student Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -131,10 +131,10 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Student Login
+                 FeeStructure
                 </Link>
 
-                <Link href="https://school.spica.edu.pk/site/userlogin" title="Parent's Login">
+                <Link href="http://localhost:3000/scholarships" title="Parent's Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -147,10 +147,10 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Parent's Login
+                  Scholarships
                 </Link>
 
-                <Link href="https://school.spica.edu.pk/site/login" title="Admin Login">
+                <Link href="http://localhost:3000/admissionpolicy" title="Admin Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -163,7 +163,7 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Admin Login
+                  AdmissionPolicy
                 </Link>
               </div>
             </div>
@@ -175,12 +175,12 @@ export default function Footer({ children, home }) {
               <div className="flex-1">
                 <div className="block mt-2">
                   <h2 className="text-xl font-bold text-red-400">
-                    Spica International School - Gujranwala
+                    Sharif-Educational-Complex
                   </h2>
                   <p className="mt-3 sm:text-base text-sm text-gray-300">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-gray-300 -mt-1 mr-1 inline"
+                      className="h-4 w-4 text-black -mt-1 mr-1 inline"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -197,8 +197,7 @@ export default function Footer({ children, home }) {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg> 
-                    Hafiz Abad Road Near Rose Marriage Garden, 
-                    Opp Flow Petrol Pump Aalam Chowk, Grw.
+                   <span className="text-black">Jati Umrah, Lahore</span>
                   </p>
                   <p className="text-base mt-2">
                     <svg
@@ -207,7 +206,7 @@ export default function Footer({ children, home }) {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="h-4 w-4 text-gray-300 -mt-1 mr-1 inline"
+                      className="h-4 w-4 text-black -mt-1 mr-1 inline"
                     >
                       <path
                         strokeLinecap="round"
@@ -215,9 +214,9 @@ export default function Footer({ children, home }) {
                         d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
                       />
                     </svg>
-                    <a href="tel:+923281215000"> 0328-121-5000</a>
+                    <a href="tel:+923281215000"> 042 378 60308-10</a>
                   </p>
-                  <p className="text-base mt-2">
+                  {/* <p className="text-base mt-2">
                   <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -232,10 +231,10 @@ export default function Footer({ children, home }) {
                         d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
                       />
                     </svg>
-                    <a href="tel:+92554233324"> 055-4233324</a>
-                  </p>
+                    <a href="tel:+92554233324"></a>
+                  </p> */}
                   <p className="text-base mt-2">
-                  <svg
+                  {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -248,9 +247,9 @@ export default function Footer({ children, home }) {
                         strokeLinejoin="round"
                         d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
                       />
-                    </svg>
+                    </svg> */}
 
-                    <a href="tel:+92554223338"> 055-4223338</a>
+                    <a href="tel:+92554223338"></a>
                   </p>
                   <p className="text-base mt-2">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256" strokeWidth="1.5" stroke="currentColor" width="16" height="16">
@@ -259,7 +258,7 @@ export default function Footer({ children, home }) {
                     </g>
                   </svg>
 
-                    <a href="mailto:info@spica.edu.pk"> Spicainternationalschool@gmail.com</a>
+                    <a href="mailto:info@spica.edu.pk"> hr@sharif.edu.pk</a>
                   </p>
                 </div>
               </div>
@@ -267,10 +266,10 @@ export default function Footer({ children, home }) {
           </div>
         </div>
 
-        <footer className="pg-footer ">
+        <footer className="pg-footer  ">
           <div className="  w-full h-full py-2">
             <div className="flex flex-col md:flex-row md:justify-between">
-              <div className="ftr-links">
+              <div className="ftr-links text-black">
               <Link href="#" title="Privacy Policy">
                   Privacy Policy
                 </Link>
@@ -285,8 +284,8 @@ export default function Footer({ children, home }) {
                   Site Map
                 </Link>
               </div>
-              <div className="copy mt-3 md:mt-0">
-                Copyright &copy; Spica International School.
+              <div className=" text-black copy mt-3 md:mt-0 ">
+                <span className="text-black">Copyright &copy; Sharif Educational Complex.</span>
               </div>
             </div>
           </div>

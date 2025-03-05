@@ -104,7 +104,7 @@ export default function About() {
         <meta name="google" content="notranslate" />
       </Head>
 
-      <MainHeader pageHeading="ABOUT US" pageImg="header-1.webp" />
+      <MainHeader pageHeading="ABOUT US" pageImg="child.jpeg" />
 
       <section className="main-sec">
         <div
@@ -171,21 +171,16 @@ export default function About() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative text-justify">
-                    Spica International School Gujranwala Campus aims to offer
-                    quality education of an international standard within our
-                    cultural structure.
+                  The vision of Sharif Education Complex is to create a dynamic learning environment where every student is empowered to realize their full potential. We aspire to be a leading educational institution recognized for cultivating compassionate leaders who are equipped to address global challenges. Our vision is to inspire a diverse community of learners to embrace curiosity, foster innovation, and develop a strong sense of social responsibility, ultimately contributing to a better world for future generations.
                   </p>
                   <p className="mt-3">
                     {' '}
-                    We aim for merit through quality management, quality
-                    training and quality teaching bringing betterment to our
-                    students, society, country and the wider world.
                   </p>
                 </div>
 
                 <div className="mt-4">
                   <p className="text-base font-semibold text-slate-300">
-                    Spica International School
+                  Sharif Educational Complex
                   </p>
                 </div>
               </blockquote>
@@ -217,12 +212,7 @@ export default function About() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative text-justify">
-                    Spica International School aims to impart quality education,
-                    knowledge, inspire, and influence through its innovative and
-                    stem educational practices. At Spica International School we
-                    want to raise a generation of talented, confident,
-                    enlightened individuals who socially and morally contribute
-                    towards the society.
+                  Sharif Education Complex is committed to nurturing intellectually capable, creative, and ethically grounded individuals who will contribute wisdom, compassion, and leadership to a global society. Our mission goes beyond academic excellence; we strive to foster a vibrant learning environment that encourages critical thinking, innovation, and a passion for lifelong learning. We believe in the holistic development of our students, emphasizing personal growth, ethical values, and responsible citizenship. By providing diverse educational experiences and promoting community engagement, we prepare our students to navigate an ever-changing world and make meaningful contributions to society.
                   </p>
                 </div>
               </blockquote>
@@ -237,7 +227,7 @@ export default function About() {
           style={{ boxShadow: '0px -15px 15px rgba(1,41,112,0.08)' }}>
           <div className="grid lg:flex gap-10">
             <Image
-              src="/images/founder-chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg"
+              src="/founder.jpg"
               alt="Chairman Spica Haji Muhammad Bashir Ansari Gujranwala"
               width={445}
               height={591}
@@ -258,24 +248,13 @@ export default function About() {
 
                   <p className="mt-4">Dear Students and Parents,</p>
                   <p className="mt-4">
-                    Welcome to the family of Spica International School
-                    Gujranwala Campus! Thank you for trusting our school and
+                    Welcome to the family of Sharif Educational Complex Thank you for trusting our school and
                     admitting your child here. We place high value on our
                     partnership with parents, families and community and we
                     invite you to be an active part of our organization.{' '}
                   </p>
                   <p className="mt-4">
-                    We consider it an honour to work with your children every
-                    day and cherish your trust in us. We believe that each and
-                    every student has a gift to share with the world, and we are
-                    here to unlock their highest potential. We have high
-                    expectations of our students, and we have high expectations
-                    of ourselves to help them learn and grow into well-rounded
-                    citizens and critical thinkers. Spica International School
-                    aims to develop leadership skills, social and emotional
-                    skills and academic skills to prepare students for success
-                    not only in school but also in their future careers,
-                    relationships and life-long learning.
+                   
                   </p>
                 </div>
               </blockquote>
@@ -285,9 +264,9 @@ export default function About() {
               <p className="font-bold">
                 Chairman
                 <br />
-                Haji Muhammad Bashir Ansari (Late)
+                Muhammad Sharif
                 <br />
-                Spica International School Gujranwala Campus
+               Sharif Educaitonal Complex
               </p>
             </div>
           </div>
@@ -300,7 +279,7 @@ export default function About() {
           style={{ boxShadow: '0px -15px 15px rgba(1,41,112,0.08)' }}>
           <div className="grid lg:flex gap-10">
             <Image
-              src="/images/maliha-principal-spica-school.jpg"
+              src="/pricipleImg.png"
               alt="Principal Spica International School"
               width={445}
               height={591}
@@ -309,28 +288,20 @@ export default function About() {
               <h2 className="text-2xl text-center">Principal's Message</h2>
 
               <p>
-                As a proud Principal of Spica International School Gujranwala
-                Campus which is academically accomplished with well-respected
-                Directors who are there to help in providing exceptional support
-                in educational outcomes and opportunities to our talented young
-                students since March 2023, I warmly welcome you on board. Our
-                aim is to create a supportive and inclusive environment where
-                students from all socioeconomic strata are encouraged to explore
-                their potential and achieve their personal best in all aspects
-                of school life. Students are challenged and engaged through
-                authentic learning opportunities that inspire them to develop
-                creativity, confidence and resilience to become independent and
-                ethical life-long learners.
+              Welcome to SEC, where we have been committed to academic excellence and holistic development since 1998. As principal, I am honored to lead a school that values each student's unique potential and strives to provide a nurturing environment where they can flourish both academically and personally. At SEC, we believe that education is not just about academic success but also about building character, resilience, and a strong sense of purpose.
+
+Sharif Education complex is a unique educational project in providing extraordinary care and education with a sense of ownership to the students. It has completed its 26 academic years obtaining very good results and achieving its mission. The mission of the school is to educate and train the generation making them right spirited Muslims and Pakistani citizens. During the education, necessary emphasis is laid on the character building and personality development of the students. The curriculum, thus, includes a broad and well-planned program for academic, mental and physical training of the students which will enable them to adopt any profession in life.
+
+Thank you for entrusting us with your child’s education. Together, as a community of students, parents, and teachers, we aim to make their educational journey enriching and impactful. We look forward to a bright future with you as part of the SEC family.
               </p>
 
               <p>Warm Regards,</p>
 
               <p className="font-bold">
-                Ma'am Maliha Fatima
+              Muhammad Ashfaq
+              Principal, SEC
                 <br />
-                Principal
-                <br />
-                Spica International School Gujranwala Campus
+               Sharif Educational Complex
               </p>
             </div>
           </div>
