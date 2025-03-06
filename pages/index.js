@@ -103,10 +103,10 @@ export default function Home() {
           name="twitter:description"
           content="Discover Spica International School Gujranwala - a leading institution committed to providing quality education, global exposure, and holistic development."
         />
-        <meta
+        {/* <meta
           name="twitter:image:src"
           content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
-        />
+        /> */}
         <meta
           property="og:title"
           content="Spica International School Gujranwala - Spica"
@@ -303,9 +303,9 @@ export default function Home() {
               className="bx-item-pro h-auto border-t-[3px] border-t-[#87CEEB] ">
               <div className="flex flex-col w-full">
                 <Image
-                  src="/images/pre-nursery.png"
-                  alt="Spica International School"
-                  className="w-16 mx-auto"
+                  src="/cul.png"
+                  alt="Sharif Educational Complex"
+                  className="w-20 h-20 mx-auto"
                   width={64}
                   height={75}
                 />
@@ -331,7 +331,7 @@ export default function Home() {
               className="bx-item-pro h-auto border-t-[3px] border-t-[#87CEEB] ">
               <div className="flex flex-col w-full">
                 <Image
-                  src="/images/nursery.png"
+                  src="/sport.png"
                   alt="Spica International School"
                   className="w-16 mx-auto "
                   width={64}
@@ -356,7 +356,7 @@ export default function Home() {
               className="bx-item-pro h-auto border-t-[3px] border-t-[#87CEEB] ">
               <div className="flex flex-col w-full">
                 <Image
-                  src="/images/kindergarten-1.png"
+                  src="/human.png"
                   alt="Spica International School"
                   className="w-16 mx-auto w-full"
                   width={64}
@@ -423,7 +423,7 @@ export default function Home() {
                 backgroundImage: "url('./images/a.jpg')",
               }}>
               <div
-                className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
+                className=" rounded-md h-full relative bg-gradient-to-t from-blue-800 via-transparent
               ">
                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
@@ -442,7 +442,7 @@ export default function Home() {
               style={{
                 backgroundImage: "url('./images/b.jpg')",
               }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent">
+              <div className=" rounded-md h-full relative bg-gradient-to-t from-blue-800 via-transparent">
                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
                   State-of-the-Art Computer Lab
@@ -462,7 +462,7 @@ export default function Home() {
                   "url('./images/c.jpg')",
               }}>
               <div
-                className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
+                className=" rounded-md h-full relative bg-gradient-to-t from-blue-800 via-transparent
               ">
                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
@@ -483,7 +483,7 @@ export default function Home() {
                 backgroundImage: "url('./images/5.jpg')",
               }}>
               <div
-                className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
+                className=" rounded-md h-full relative bg-gradient-to-t from-blue-800 via-transparent
               ">
                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">

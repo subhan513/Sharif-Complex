@@ -46,7 +46,7 @@ export default function Contact() {
       </Head>
       <MainHeader pageHeading="FEE STRUCTURE" pageImg="child.jpeg" />
       <motion.div
-      className="min-h-screen mt-4 mb-4 rounded-2xl flex flex-col items-center justify-center p-10 bg-[#FAF3E0]"
+      className="min-h-screen mt-4 mb-4 rounded-2xl flex flex-col items-center justify-center p-10"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}

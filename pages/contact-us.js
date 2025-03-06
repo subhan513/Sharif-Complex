@@ -136,7 +136,7 @@ export default function Contact() {
             <div className="content-bx bg-no-repeat   bg-center">
               <div className="block mt-2 text-gray-900 p-8">
                 <Image
-                src="/images/sharifLogo.png"
+                src="/sharifLogo.png"
                 className="mx-auto mb-5" alt="Spica International"
                 width={150}
                 height={140}
