@@ -105,12 +105,12 @@ export default function Contact() {
     {
       name: 'Mian Muhammad Nawaz Sharif',
       role: 'Present Chairman & Trustee',
-      image: '/nawazsharif.jpg',
+      image: '/images/nawazsharif.jpg',
     },
     {
       name: 'Maryam Nawaz Sharif',
       role: 'Chairperson',
-      image: '/maryamnawaz.jpg',
+      image: '/images/maryamnawaz.jpeg',
     },
   ];
 

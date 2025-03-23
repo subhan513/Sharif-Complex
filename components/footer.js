@@ -86,7 +86,7 @@ export default function Footer({ children, home }) {
                   </svg>
                   Online Admission
                 </Link>
-                <Link href="https://school.spica.edu.pk/apk/android_app_4.0.apk" title="Download Android App">
+                {/* <Link href="https://school.spica.edu.pk/apk/android_app_4.0.apk" title="Download Android App">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -100,7 +100,7 @@ export default function Footer({ children, home }) {
                     />
                   </svg>
                   Android App
-                </Link>
+                </Link> */}
 
                 <Link href="http://localhost:3000/about" title="Staff Login">
                   <svg
