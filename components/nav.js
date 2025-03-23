@@ -165,9 +165,9 @@ export default function Nav() {
                 <Link href="/visionmission" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Vision & Mission
                 </Link>
-                <Link href="/administration" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                {/* <Link href="/administration" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Administration
-                </Link>
+                </Link> */}
                 <Link href="/facilities" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Facilities
                 </Link>
