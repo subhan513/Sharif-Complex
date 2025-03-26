@@ -388,8 +388,8 @@ export default function Nav() {
           <ul className="items-center   uppercase group-hover:text-white   text-white   text-lg font-normal hidden xl:flex">
             <li className="mr-2">
               <a
-                href="https://wa.me/+923281215000"
-                title="WhatsApp Spica International"
+                href="https://wa.me/924237860308"
+                title="WhatsApp Sharif Educationl Conmplex"
                 className="tooltip font-bold flex text-xl hover:-translate-y-1 duration-300 transition   text-black py-1 px-1    rounded-full ">
                 <span className="w-9 h-9 bg-green-500 rounded-full flex justify-center items-center ">
                   <svg
@@ -410,8 +410,8 @@ export default function Nav() {
 
             <li>
               <a
-                href="tel:+92554233324 "
-                title="Call Spica International"
+                href="tel:+92554233324"
+                title="Call Sharif Educational Complex"
                 className="tooltip font-bold flex text-xl 
                 bg-gradient-to-br from-[#dc9612] via-[#f5e9b8] to-[#fbbf03] hover:to-[#dc9612] hover:via-[#ede6cd] hover:from-[#fbbf03] text-black py-1 px-1 2xl:pr-4  rounded-full  ">
                 <span className="w-8 h-8 bg-white rounded-full justify-center items-center flex ">

@@ -146,7 +146,7 @@ export default function Home() {
               <Link
                 href="online-admission"
                 //href="/solutions"
-                className="text-black border-2 hover:bg-black-500  bg-[#87CEEB]  rounded-full px-5 py-2  border-[#87CEEB]   hover:text-white text-lg transition duration-	300 font-medium">
+                className="text-black border-2 hover:bg-black-500  bg-[#FA8433]  rounded-full px-5 py-2  border-[#000]   hover:text-white text-lg transition duration-	300 font-medium">
                 APPLY FOR ADMISSION
               </Link>
             </div>
@@ -162,9 +162,8 @@ export default function Home() {
             ></Image> */}
         <iframe src="/tour/index.html" className="w-full h-full "></iframe>
         <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
-        <div className="w-full h-full bg-gradient-to-t from-blue-800 via-transparent z-20  absolute"></div>
+        <div className="w-full h-full bg-gradient-to-t from-[#FA8433] via-transparent z-20 absolute"></div>
       </header>
-
       <section className="py-0 pt-16 ">
         <div className="sec-heading">
           <h2>WHY CHOOSE SHARIF EDUCATIONAL COMPLEX?</h2>
@@ -177,10 +176,10 @@ export default function Home() {
           <ul
             role="list"
             className="grid grid-cols-2 gap-6 gap-y-10 sm:grid-cols-3 md:grid-cols-6 ">
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
-              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#FA8433] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#FA8433] shadow-sm absolute -mt-32">
                 <AcademicCapIcon
-                  className="w-8 h-8 text-[#c44545]"
+                  className="w-8 h-8 text-[#FA8433]"
                   strokeWidth={1}
                 />
               </div>
@@ -193,15 +192,15 @@ export default function Home() {
               {/*<p>Each child learns in different ways.</p>*/}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
-              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#FA8433] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#FA8433] shadow-sm absolute -mt-32">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-8 h-8 text-[#c44545]">
+                  className="w-8 h-8 text-[#FA8433]">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -216,10 +215,10 @@ export default function Home() {
               </h2>
               {/*<p>The early years are critical for literacy development.</p> */}
             </li>
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
-              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#FA8433] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#FA8433] shadow-sm absolute -mt-32">
                 <UserGroupIcon
-                  className="w-8 h-8 text-[#c44545]"
+                  className="w-8 h-8 text-[#FA8433]"
                   strokeWidth={1.5}
                 />
               </div>
@@ -231,10 +230,10 @@ export default function Home() {
               {/* <p>Our social studies domain helps children understand themselves.</p> */}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
-              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#FA8433] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#FA8433] shadow-sm absolute -mt-32">
                 <CalculatorIcon
-                  className="w-8 h-8 text-[#c44545]"
+                  className="w-8 h-8 text-[#FA8433]"
                   strokeWidth={1.5}
                 />
               </div>
@@ -246,10 +245,10 @@ export default function Home() {
               {/* <p>Early experiences with math help children develop reasoning skills</p> */}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
-              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#FA8433] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#FA8433] shadow-sm absolute -mt-32">
                 <BeakerIcon
-                  className="w-8 h-8 text-[#c44545]"
+                  className="w-8 h-8 text-[#FA8433]"
                   strokeWidth={1.5}
                 />
               </div>
@@ -261,15 +260,15 @@ export default function Home() {
               {/*<p>Children are natural scientists.</p> */}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#87CEEB] p-5 flex justify-center items-center">
-              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-[#FA8433] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#FA8433] shadow-sm absolute -mt-32">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-8 h-8 text-[#c44545]">
+                  className="w-8 h-8 text-[#FA8433]">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -300,7 +299,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-4  text-center mx-auto">
             <Link
               href="/pre-school"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#87CEEB] ">
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#FA8433] ">
               <div className="flex flex-col w-full">
                 <Image
                   src="/cul.png"
@@ -328,7 +327,7 @@ export default function Home() {
 
             <Link
               href="/primary-and-middle-school"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#87CEEB] ">
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#FA8433] ">
               <div className="flex flex-col w-full">
                 <Image
                   src="/sport.png"
@@ -353,7 +352,7 @@ export default function Home() {
 
             <Link
               href="/primary-and-middle-school"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#87CEEB] ">
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#FA8433] ">
               <div className="flex flex-col w-full">
                 <Image
                   src="/human.png"
@@ -423,7 +422,7 @@ export default function Home() {
                 backgroundImage: "url('./images/a.jpg')",
               }}>
               <div
-                className=" rounded-md h-full relative bg-gradient-to-t from-blue-800 via-transparent
+                className=" rounded-md h-full relative bg-gradient-to-t from-[#FA8433] via-transparent z-20
               ">
                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
@@ -442,7 +441,7 @@ export default function Home() {
               style={{
                 backgroundImage: "url('./images/b.jpg')",
               }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-blue-800 via-transparent">
+              <div className=" rounded-md h-full relative bg-gradient-to-t from-[#FA8433] via-transparent z-20">
                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
                   State-of-the-Art Computer Lab
@@ -462,7 +461,7 @@ export default function Home() {
                   "url('./images/c.jpg')",
               }}>
               <div
-                className=" rounded-md h-full relative bg-gradient-to-t from-blue-800 via-transparent
+                className=" rounded-md h-full relative bg-gradient-to-t from-[#FA8433] via-transparent z-20
               ">
                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
@@ -483,7 +482,7 @@ export default function Home() {
                 backgroundImage: "url('./images/5.jpg')",
               }}>
               <div
-                className=" rounded-md h-full relative bg-gradient-to-t from-blue-800 via-transparent
+                className=" rounded-md h-full relative bg-gradient-to-t from-[#FA8433] via-transparent z-20
               ">
                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
@@ -552,7 +551,7 @@ export default function Home() {
                     <div className=" flex justify-center items-center mt-10">
                       <Link
                         href="/about"
-                        className="border-2 flex border-red-700 text-slate-500 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-white transition duration-300 font-medium">
+                        className="border-2 flex border-orange-500 text-slate-500 text-lg  rounded-full px-5 py-2 hover:bg-orange-500 hover:border-orange-500  hover:text-white transition duration-300 font-medium">
                         Read More <ArrowRightIcon className="w-5 ml-3" />
                       </Link>
                     </div>
@@ -603,7 +602,7 @@ export default function Home() {
                     <div className=" flex justify-center items-center mt-10">
                       <Link
                         href="/about"
-                        className="border-2 flex border-red-700 text-slate-500 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-white transition duration-300 font-medium">
+                        className="border-2 flex border-orange-500 text-slate-500 text-lg  rounded-full px-5 py-2 hover:bg-orange-500 hover:border-orange-500  hover:text-white transition duration-300 font-medium">
                         Read More <ArrowRightIcon className="w-5 ml-3" />
                       </Link>
                     </div>
@@ -786,7 +785,7 @@ export default function Home() {
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="/faqs"
-                className="border-2 border-red-500 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-white transition duration-300 font-medium">
+                className="border-2 border-orange-500 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-orange-500 hover:border-orange-500  hover:text-white transition duration-300 font-medium">
                 View all FAQs
               </Link>
             </div>

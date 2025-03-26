@@ -5,11 +5,11 @@ export default function Footer({ children, home }) {
     <>
       <section
         id="sec-footer"
-        className=" bg-[#87CEEB] sec-footer border-t group bg-center bg-no-repeat bg-cover relative"
+        className=" bg-[#FA8433] sec-footer border-t group bg-center bg-no-repeat bg-cover relative"
         // style={{ backgroundImage: "url('../images/footer-spica.webp')" }}
       >
-        <div className="w-full- h-full group-hover:opacity-80  absolute inset-0 z-10   "></div>
-        <div className="container mx-auto px-5 z-20 relative">
+        <div className="w-full- h-full"></div>
+        <div className="container mx-auto px-5 relative">
           <div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 text-black">
             <div className="md:col-span-2">
               <h2 className="text-lg sm:text-xl font-semibold py-2">
@@ -22,8 +22,8 @@ export default function Footer({ children, home }) {
                 </p>
                 <Link
                       href="#"
-                      className=" pr-4  py-1 mt-4 border px-4 rounded-full inline-block  no-underline"
-                      title="About Spica"
+                      className=" pr-4 text-black hover:bg-black  py-1 mt-4 border px-4 rounded-full inline-block  no-underline"
+                      title="About Sharif Educational Complex"
                     >
                      Sharif Educational Complex
                       <svg
@@ -58,7 +58,7 @@ export default function Footer({ children, home }) {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5 inline -mt-1 mr-1"
+                    className="w-5 h-5 inline -mt-1 mr-1 text-black"
                   >
                     <path
                       fillRule="evenodd"
@@ -66,7 +66,7 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Home Page
+                 <span className="text-black">Home Page</span>
                 </Link>
                 <Link
                   href="#"
@@ -76,7 +76,7 @@ export default function Footer({ children, home }) {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5 inline -mt-1 mr-1"
+                    className="w-5 h-5 inline -mt-1 mr-1 text-black"
                   >
                     <path
                       fillRule="evenodd"
@@ -84,7 +84,7 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Online Admission
+                 <span className="text-black">Online Admission</span>
                 </Link>
                 {/* <Link href="https://school.spica.edu.pk/apk/android_app_4.0.apk" title="Download Android App">
                   <svg
@@ -107,7 +107,7 @@ export default function Footer({ children, home }) {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5 inline -mt-1 mr-1"
+                    className="w-5 h-5 inline -mt-1 mr-1 text-black"
                   >
                     <path
                       fillRule="evenodd"
@@ -115,7 +115,7 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                 About Us
+               <span className="text-black">About Us</span>
                 </Link>
 
                 <Link href="http://localhost:3000/Feestructure" title="Student Login">
@@ -123,7 +123,7 @@ export default function Footer({ children, home }) {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5 inline -mt-1 mr-1"
+                    className="w-5 h-5 inline -mt-1 mr-1 text-black"
                   >
                     <path
                       fillRule="evenodd"
@@ -131,7 +131,7 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                 FeeStructure
+                <span className="text-black">FeeStructure</span>
                 </Link>
 
                 <Link href="http://localhost:3000/scholarships" title="Parent's Login">
@@ -139,7 +139,7 @@ export default function Footer({ children, home }) {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5 inline -mt-1 mr-1"
+                    className="w-5 h-5 inline -mt-1 mr-1 text-black"
                   >
                     <path
                       fillRule="evenodd"
@@ -147,7 +147,7 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Scholarships
+                 <span className="text-black">Scholarships</span>
                 </Link>
 
                 <Link href="http://localhost:3000/admissionpolicy" title="Admin Login">
@@ -155,7 +155,7 @@ export default function Footer({ children, home }) {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5 inline -mt-1 mr-1"
+                    className="w-5 h-5 inline -mt-1 mr-1 text-black"
                   >
                     <path
                       fillRule="evenodd"
@@ -163,18 +163,18 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  AdmissionPolicy
+                  <span  className="text-black">AdmissionPolicy</span>
                 </Link>
               </div>
             </div>
             <div>
               <h2 className="text-lg sm:text-xl font-semibold py-2 mt-3 md:mt-0">
-                Contact Us
+           <span className="text-black">Contact Us</span>
               </h2>
 
               <div className="flex-1">
                 <div className="block mt-2">
-                  <h2 className="text-xl font-bold text-red-400">
+                  <h2 className="text-xl font-bold text-black-400">
                     Sharif-Educational-Complex
                   </h2>
                   <p className="mt-3 sm:text-base text-sm text-gray-300">
@@ -251,15 +251,33 @@ export default function Footer({ children, home }) {
 
                     <a href="tel:+92554223338"></a>
                   </p>
-                  <p className="text-base mt-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256" strokeWidth="1.5" stroke="currentColor" width="16" height="16">
-                    <g strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M 13.636 18.872 l 0.159 0.002 c 0.098 0.002 0.196 0.008 0.291 0.014 ..." />
-                    </g>
-                  </svg>
+                  <p className="text-base mt-2 flex items-center gap-2">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth="1.5"
+    stroke="currentColor"
+    width="16"
+    height="16"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M21.75 7.5v9a2.25 2.25 0 01-2.25 2.25H4.5A2.25 2.25 0 012.25 16.5v-9m19.5 0L12 13.5 2.25 7.5m19.5-4.5H2.25A2.25 2.25 0 002.25 6v12A2.25 2.25 0 004.5 20.25h15A2.25 2.25 0 0021.75 18V6a2.25 2.25 0 00-2.25-2.25z"
+    />
+  </svg>
 
-                    <a href="mailto:info@spica.edu.pk"> hr@sharif.edu.pk</a>
-                  </p>
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=hr@sharif.edu.pk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-black-500 hover:underline"
+  >
+   <span className="text-black hover:underline">Email HR: hr@sharif.edu.pk</span>
+  </a>
+</p>
+
                 </div>
               </div>
             </div>
