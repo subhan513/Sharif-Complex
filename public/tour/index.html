@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Sharif Educational Complex</title>
@@ -11,16 +11,19 @@
 	<style>
 		html { height:100%; }
 		body { height:100%; overflow:hidden; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#000000; }
+		video.bg-video { position:fixed; top:0; left:0; width:100vw; height:100vh; object-fit:cover; object-position:center; }
 	</style>
 </head>
 <body>
 	<video 
-	className="absolute top-0 left-0 w-full h-full object-cover"
-	autoPlay 
-	loop 
-	muted 
-	playsInline
->
+		class="bg-video"
+		autoplay
+		loop
+		muted
+		playsinline
+		webkit-playsinline
+		preload="auto"
+	>
 	<source src="/videos/background.mp4" type="video/mp4" />
 	Your browser does not support the video tag.
 </video>
